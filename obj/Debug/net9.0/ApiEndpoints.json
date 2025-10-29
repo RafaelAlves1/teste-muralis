@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "RetornarTodosClientes",
+    "RelativePath": "clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "AdicionarCliente",
+    "RelativePath": "clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adicionarClienteDTO",
+        "Type": "Desafio.DTO.AdicionarClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "RetornarClientePorId",
+    "RelativePath": "clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "EditarCliente",
+    "RelativePath": "clientes/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editarClienteDTO",
+        "Type": "Desafio.DTO.EditarClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "DeletarCliente",
+    "RelativePath": "clientes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "EditarContatoCliente",
+    "RelativePath": "clientes/{id}/contato",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editarContatoClienteDTO",
+        "Type": "Desafio.DTO.EditarContatoClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.ClientesController",
+    "Method": "EditarEnderecoCliente",
+    "RelativePath": "clientes/{id}/endereco",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editarEnderecoClienteDTO",
+        "Type": "Desafio.DTO.EditarEnderecoClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
