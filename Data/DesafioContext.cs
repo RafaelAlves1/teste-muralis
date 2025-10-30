@@ -40,7 +40,7 @@ namespace Desafio.Data
 
             modelBuilder.Entity<Cliente>()
             .Property(c => c.DataCadastro)
-            .HasDefaultValueSql("FORMAT(GETDATE(), 'dd/MM/yyyy HH:mm:ss')");
+            .HasDefaultValueSql("GETDATE()");
 
         }
     }

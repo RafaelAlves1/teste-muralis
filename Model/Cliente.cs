@@ -10,8 +10,7 @@ namespace Desafio.Model
         [MaxLength(150)]
         public string Nome { get; set; } = String.Empty;
 
-        [MaxLength(23)]
-        public string DataCadastro { get; set; } = String.Empty;
+        public DateTime DataCadastro { get; set; }
 
         public Endereco Endereco { get; set; } = new Endereco();
 
